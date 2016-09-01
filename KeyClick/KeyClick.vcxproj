@@ -203,6 +203,7 @@
     <ResourceCompile Include="KeyClick.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="res\KeyClick.rc2" />
   </ItemGroup>
   <ItemGroup>

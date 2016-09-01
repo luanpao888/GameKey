@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HotKeyDlg" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAAAAAQAAAJAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HotKeyDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyClickApp" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyClick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyClickDlg" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAABAAAQABAAAAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>KeyClickDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DoMainStruct" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAIAAAAAAA=</HashCode>
+      <FileName>KeyClick.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

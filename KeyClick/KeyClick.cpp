@@ -33,6 +33,7 @@ CKeyClickApp::CKeyClickApp()
 // 唯一的一个 CKeyClickApp 对象
 
 CKeyClickApp theApp;
+DoMainStruct Domain;
 
 
 // CKeyClickApp 初始化

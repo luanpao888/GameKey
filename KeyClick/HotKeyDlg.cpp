@@ -26,7 +26,6 @@ void HotKeyDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
 
-
 	//CWnd* cwnd = GetDlgItem(IDC_HOTKEY1);
 	DDX_Control(pDX, IDC_HOTKEY1, m_hotKeyCtrl);
 
@@ -53,12 +52,15 @@ void HotKeyDlg::OnBnClickedHotKeyConfirmBtn()
 	HotKeyDlg::OnOK();
 	// TODO: 在此添加控件通知处理程序代码
 	//WORD VirtualKeyCode = 0, fsModifiers = 0;
-	//m_hotKeyCtrl.GetHotKey(Domain.VirtualKeyCode, Domain.fsModifiers);
+	m_hotKeyCtrl.GetHotKey(Domain.VirtualKeyCode, Domain.fsModifiers);
 
 	//AfxMessageBox(L"1");
-	//Domain.cListBox.AddString(L"1");
-}
 
+	CString text;
+	text.Format(_T("%d"), Domain.VirtualKeyCode);
+
+	Domain.cListBox.AddString(text);
+}
 
 void HotKeyDlg::OnBnClickedHotKeyCancelBtn()
 {

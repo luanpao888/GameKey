@@ -35,5 +35,6 @@ struct DoMainStruct
 {
 	WORD VirtualKeyCode = 0, fsModifiers = 0;//°´¼ü
 	CListBox cListBox;
-}Domain;
+};
 
+extern DoMainStruct Domain;
