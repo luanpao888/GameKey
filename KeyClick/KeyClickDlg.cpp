@@ -28,7 +28,7 @@ void CKeyClickDlg::DoDataExchange(CDataExchange* pDX)
 
 	//Êý¾Ý°ó¶¨
 	DDX_Text(pDX, ID_TIMESTAMP_EDIT, l_timestamp_edit);
-	DDX_Control(pDX, IDC_LIST, Domain.cListBox);
+	DDX_Control(pDX, IDC_LIST, Domain.cListCtrl);
 }
 
 BEGIN_MESSAGE_MAP(CKeyClickDlg, CDialogEx)

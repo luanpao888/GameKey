@@ -24,7 +24,7 @@
   <Struct Name="DoMainStruct" Collapsed="true">
     <Position X="0.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAIAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAEAAAAAAAAEAAAAAAAAAAA=</HashCode>
       <FileName>KeyClick.h</FileName>
     </TypeIdentifier>
   </Struct>

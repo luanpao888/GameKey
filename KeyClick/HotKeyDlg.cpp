@@ -53,13 +53,13 @@ void HotKeyDlg::OnBnClickedHotKeyConfirmBtn()
 	// TODO: 在此添加控件通知处理程序代码
 	//WORD VirtualKeyCode = 0, fsModifiers = 0;
 	m_hotKeyCtrl.GetHotKey(Domain.VirtualKeyCode, Domain.fsModifiers);
-
+	CString key = m_hotKeyCtrl.GetHotKeyName();
 	//AfxMessageBox(L"1");
 
 	CString text;
 	text.Format(_T("%d"), Domain.VirtualKeyCode);
 
-	Domain.cListBox.AddString(text);
+	//Domain.cListBox.AddString(key+":"+text);
 }
 
 void HotKeyDlg::OnBnClickedHotKeyCancelBtn()

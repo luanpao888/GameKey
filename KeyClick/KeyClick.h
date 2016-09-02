@@ -34,7 +34,7 @@ extern CKeyClickApp theApp;
 struct DoMainStruct
 {
 	WORD VirtualKeyCode = 0, fsModifiers = 0;//°´¼ü
-	CListBox cListBox;
+	CListCtrl cListCtrl;
 };
 
 extern DoMainStruct Domain;
